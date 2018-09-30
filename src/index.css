@@ -1,0 +1,38 @@
+body {
+  margin: 20;
+  padding: 50;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  min-height: 20vh;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.showBlock{
+  display: block;
+}
+
+.floatRight{
+  widows: 100%; padding:100;
+}
+
+.ccDiv{
+  text-align: center;
+}
+
+.creditcard{
+  display: inline-block;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: darkgrey;
+  margin-bottom: 10px;
+}
+
+.My_Footer{
+  position: absolute;
+  bottom:0;
+  width:100%;
+}
